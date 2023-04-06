@@ -1,0 +1,44 @@
+/* -------------------------------------------------------------------------------------------------
+ * Showcase list
+ * -----------------------------------------------------------------------------------------------*/
+.showcase-list {
+  --showcase-list--top: var(--size-fluid-2);
+  --showcase-list--side: var(--size-fluid-3);
+
+  display: grid;
+}
+
+.showcase-list--section {
+  display: grid;
+  grid-template-columns: var(--showcase-list--side) 1fr var(--showcase-list--side);
+  grid-template-rows: var(--showcase-list--top) 1fr var(--showcase-list--top);
+  grid-template-areas:
+    ".    .    ."
+    ". content ."
+    ".    .    .";
+  align-items: start;
+}
+
+/* Main media of the section, acting as full width + height background */
+.showcase-list--section > img,
+.showcase-list--section > video,
+.showcase-list--section > picture {
+  grid-column: -1/1;
+  grid-row: -1/1;
+}
+
+/*
+ * Sticky Headline
+ * (could be changed to more text in a container)
+ */
+.showcase-list--section h2 {
+  grid-area: content;
+
+  position: sticky;
+  top: var(--showcase-list--top);
+  bottom: var(--showcase-list--top);
+}
+
+.showcase-list--section[data-img-lightness="light"] h2 {
+  color: var(--gray-10);
+}

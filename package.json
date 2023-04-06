@@ -1,0 +1,17 @@
+{
+  "name": "mag",
+  "version": "0.1.0",
+  "description": "Mag's site",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "start": "npx @11ty/eleventy --serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-img": "^3.1.0",
+    "clean-css": "^5.3.2"
+  }
+}

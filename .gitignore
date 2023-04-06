@@ -1,0 +1,11 @@
+# Eleventy specific cache
+.cache/
+
+# Output files
+_site/
+
+# Third party modules
+node_modules/
+
+# Operating system specific
+.DS_Store
