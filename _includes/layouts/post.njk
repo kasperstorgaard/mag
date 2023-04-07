@@ -2,6 +2,8 @@
 layout: layouts/base.njk
 ---
 <main>
-  {{ content | safe }}
-  {% image imgSrc, imgAlt %}
+  <section class="post">
+    {{ content | safe }}
+    {% image imgSrc, imgAlt %}
+  </section>
 </main>

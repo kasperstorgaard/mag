@@ -1,7 +1,9 @@
 {
   "cssvar.files": [
-    "_includes/styles/variables.css",
-    "_includes/styles/open-props.min.css",
+    "_includes/styles/open-props.css",
+    "_includes/styles/normalize.css",
+    "_includes/styles/fonts.css",
+    "_includes/styles/components.css"
   ],
 
   // Do not ignore node_modules css files, which is ignored by default

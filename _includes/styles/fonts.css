@@ -4,30 +4,41 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "BodoniModa";
+  src: url("/assets/fonts/BodoniModa.woff2") format("woff2-variations");
+  font-style: normal;
+}
+
+
 :root {
   --font-sans: "PlusJakartaSans";
+  --font-serif: "BodoniModa";
   --font-lineheight-1: 1.1;
   --font-lineheight-2: 1.25;
   --font-lineheight-3: 1.375;
+
+  font-family: var(--font-serif);
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 200;
+  font-weight: 100;
+  font-family: var(--font-sans);
   text-transform: uppercase;
 }
 
 h1 {
-  letter-spacing: 4px;
+  letter-spacing: var(--font-letterspacing-3);
 }
 
 h2 {
-  letter-spacing: 2px;
+  letter-spacing: var(--font-letterspacing-2);
 }
 
 h3 {
-  letter-spacing: 0px;
+  letter-spacing: var(--font-letterspacing-00);
 }
 
 h4 {
-  letter-spacing: -2px;
+  letter-spacing: var(--font-letterspacing-1);
 }

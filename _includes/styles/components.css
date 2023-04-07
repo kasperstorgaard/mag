@@ -16,7 +16,15 @@
     ".    .    ."
     ". content ."
     ".    .    .";
-  align-items: start;
+  place-items: start;
+
+  overflow: hidden;
+
+  color: var(--gray-1);
+}
+
+.showcase-list--section:hover {
+  text-decoration: none;
 }
 
 /* Main media of the section, acting as full width + height background */
@@ -25,6 +33,10 @@
 .showcase-list--section > picture {
   grid-column: -1/1;
   grid-row: -1/1;
+
+  transition: transform 1s ease-out;
+  transform-origin: center;
+  z-index: 0;
 }
 
 /*
@@ -37,8 +49,38 @@
   position: sticky;
   top: var(--showcase-list--top);
   bottom: var(--showcase-list--top);
+
+  padding: var(--size-1);
+
+  border: 2px solid currentColor;
+  color: inherit;
+  z-index: 1;
+  min-width: min(500px, 100%);
+
+  transition: font-weight 1s ease-out, border-width 1s ease-out;
 }
 
-.showcase-list--section[data-img-lightness="light"] h2 {
+.showcase-list--section:hover h2 {
+  font-weight: 400;
+  border-width: 4px;
+}
+
+.showcase-list--section[data-img-lightness="light"] {
   color: var(--gray-10);
+}
+
+.showcase-list--section:hover > img,
+.showcase-list--section:hover > video,
+.showcase-list--section:hover > picture {
+  transform: scale(1.02);
+}
+
+/* -------------------------------------------------------------------------------------------------
+ * Post
+ * -----------------------------------------------------------------------------------------------*/
+.post {
+  display: grid;
+  gap: var(--size-fluid-1);
+
+  padding: var(--size-fluid-2);
 }
