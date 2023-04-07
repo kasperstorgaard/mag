@@ -45,7 +45,28 @@ const cssMinFilter = code => {
  */
 /** @param {import("@11ty/eleventy").UserConfig} config */
 module.exports = config => {
+
   config.addShortcode('image', imageShortcode);
   config.addFilter('cssmin', cssMinFilter);
-  config.addPassthroughCopy('assets/fonts');
+
+  config.addPassthroughCopy({
+		"./public/": "/",
+  });
+
+  return {
+    // Pre-process *.md files with: (default: `liquid`)
+		markdownTemplateEngine: "njk",
+
+		// Pre-process *.html files with: (default: `liquid`)
+		htmlTemplateEngine: "njk",
+
+    dir: {
+      input: "content",          // default: "."
+      includes: "../_includes",  // default: "_includes"
+      data: "../_data",          // default: "_data"
+      output: "_site"
+    },
+
+    pathPrefix: "/",
+  };
 };

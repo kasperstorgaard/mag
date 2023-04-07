@@ -1,7 +1,7 @@
 ---
 tags: post
 title: House in the birchwood
-imgSrc: assets/images/house-in-the-birchwood.avif
+imgSrc: public/images/house-in-the-birchwood.avif
 imgAlt: modest house in a birchwood forest
 imgLightness: dark
 ---

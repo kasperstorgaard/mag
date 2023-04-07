@@ -1,12 +1,12 @@
 @font-face {
   font-family: "PlusJakartaSans";
-  src: url("/assets/fonts/PlusJakartaSans.woff2") format("woff2-variations");
+  src: url("/fonts/PlusJakartaSans.woff2") format("woff2-variations");
   font-style: normal;
 }
 
 @font-face {
   font-family: "BodoniModa";
-  src: url("/assets/fonts/BodoniModa.woff2") format("woff2-variations");
+  src: url("/fonts/BodoniModa.woff2") format("woff2-variations");
   font-style: normal;
 }
 

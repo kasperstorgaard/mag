@@ -1,0 +1,10 @@
+{% set css %}
+  {% include 'public/styles/normalize.css' %}
+  {% include 'public/styles/open-props.css' %}
+  {% include 'public/styles/fonts.css' %}
+  {% include 'public/styles/components.css' %}
+{% endset %}
+
+<style>
+  {{ css | cssmin | safe }}
+</style>
