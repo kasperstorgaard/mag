@@ -1,0 +1,76 @@
+/* -------------------------------------------------------------------------------------------------
+ * Post
+ * -----------------------------------------------------------------------------------------------*/
+.post {
+  --post--gutter: var(--size-fluid-2);
+  --post--top-pad: var(--size-fluid-1);
+}
+
+.post--media {
+  display: grid;
+  grid-template-columns:
+    minmax(var(--post--gutter), 1fr) /* left */
+    minmax(max-content, var(--size-content-3)) /* caption */
+    minmax(var(--post--gutter), 1fr); /* right */
+  grid-template-rows: 1fr max-content var(--post--top-pad);
+  grid-template-areas:
+    ".    .    ."
+    ". caption ."
+    ".    .    .";
+  place-items: start;
+
+  max-height: 500px;
+  font-size: var(--font-size-2);
+
+  overflow: hidden;
+}
+
+.post--media picture {
+  max-height: 500;
+  grid-row: 1/-1;
+  grid-column: 1/-1;
+}
+
+.post--media figcaption {
+  grid-area: caption;
+
+  width: 100%;
+
+  font-size: var(--font-size-fluid-0);
+  font-weight: 200;
+  color: var(--surface-1);
+}
+
+.post--media figcaption::before {
+  content: "//";
+  margin-right: 1ch;
+}
+
+.post--media figcaption::after {
+  content: "//";
+  margin-left: 1ch;
+}
+
+.post--content {
+  display: grid;
+  place-content: center;
+
+  padding: var(--post--top-pad) var(--post--gutter) var(--size-fluid-3);
+}
+
+.post--content > *:not(:last-child) {
+  margin-bottom: 1em;
+}
+
+.post--content h1 {
+  width: 100%;
+  padding-bottom: var(--post--top-pad);
+
+  font-size: var(--font-size-5);
+  border-bottom: 2px double currentColor;
+}
+
+.post--content dl {
+  border-top: 2px double currentColor;
+  padding-top: var(--post--top-pad);
+}

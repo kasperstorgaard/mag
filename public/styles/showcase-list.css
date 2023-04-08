@@ -1,7 +1,7 @@
 /* -------------------------------------------------------------------------------------------------
  * Showcase list
  * -----------------------------------------------------------------------------------------------*/
-.showcase-list {
+ .showcase-list {
   --showcase-list--top: var(--size-fluid-2);
   --showcase-list--side: var(--size-fluid-3);
 
@@ -11,10 +11,11 @@
 .showcase-list--section {
   display: grid;
   grid-template-columns: var(--showcase-list--side) 1fr var(--showcase-list--side);
-  grid-template-rows: var(--showcase-list--top) 1fr var(--showcase-list--top);
+  grid-template-rows: var(--showcase-list--top) 1fr min-content var(--showcase-list--top);
   grid-template-areas:
     ".    .    ."
     ". content ."
+    ".  link   ."
     ".    .    .";
 
   place-items: start;
@@ -49,10 +50,7 @@
   top: var(--showcase-list--top);
   bottom: var(--showcase-list--top);
 
-  padding: var(--size-1);
-
-  border: 2px solid currentColor;
-
+  font-size: var(--font-size-fluid-2);
   color: inherit;
   z-index: 1;
 
@@ -67,18 +65,20 @@
   color: var(--gray-10);
 }
 
+
 .showcase-list--section:hover > img,
 .showcase-list--section:hover > video,
 .showcase-list--section:hover > picture {
   transform: scale(1.02);
 }
 
-/* -------------------------------------------------------------------------------------------------
- * Post
- * -----------------------------------------------------------------------------------------------*/
-.post {
-  display: grid;
-  gap: var(--size-fluid-1);
+.showcase-list--section-link {
+  grid-area: link;
+  justify-self: end;
 
-  padding: var(--size-fluid-2);
+  z-index: 0;
+
+  text-decoration: underline;
+  font-family: var(--font-sans);
+  font-size: var(--font-size-fluid-1);
 }

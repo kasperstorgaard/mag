@@ -19,6 +19,8 @@
   --font-lineheight-3: 1.375;
 
   font-family: var(--font-serif);
+  letter-spacing: var(--font-letterspacing-1);
+  font-size: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {

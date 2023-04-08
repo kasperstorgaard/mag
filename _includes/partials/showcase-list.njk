@@ -3,10 +3,11 @@
     <a
       href="{{ post.url }}"
       class="showcase-list--section"
-      data-img-lightness={{ post.data.imgLightness or 'dark' }}
+      data-img-lightness={{ post.data.img.lightness or 'dark' }}
     >
       <h2>{{ post.data.title }}</h2>
-      {% image post.data.imgSrc, post.data.imgAlt %}
-    </a>
+      {% image post.data.img.src, post.data.img.alt %}
+      <span class="showcase-list--section-link">read more</span>
+  </a>
   {%- endfor -%}
 </section>

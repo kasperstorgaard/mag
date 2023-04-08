@@ -2,9 +2,9 @@
  * This is the main eleventy configuration file.
  * For options, see: https://www.11ty.dev/docs/config/
  */
-const path = require("path");
 const Image = require("@11ty/eleventy-img");
 const CleanCSS = require("clean-css");
+const markdownDeflist = require("markdown-it-deflist");
 
 /**
  * Image shortcode
@@ -40,18 +40,30 @@ const cssMinFilter = code => {
   return new CleanCSS({}).minify(code).styles;
 }
 
+const svgIconShortcode = async src => {
+  const meta = await Image(src, {
+    formats: ['svg'],
+    dryRun: true,
+  });
+
+  return meta.svg[0].buffer.toString();
+}
+
+
 /**
  * This adds and exports all functions, options etc. to eleventy.
  */
 /** @param {import("@11ty/eleventy").UserConfig} config */
 module.exports = config => {
-
   config.addShortcode('image', imageShortcode);
   config.addFilter('cssmin', cssMinFilter);
+  config.addShortcode('svgIcon', svgIconShortcode);
 
   config.addPassthroughCopy({
 		"./public/": "/",
   });
+
+  config.amendLibrary("md", mdLib => mdLib.use(markdownDeflist));
 
   return {
     // Pre-process *.md files with: (default: `liquid`)
