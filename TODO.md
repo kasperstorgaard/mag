@@ -10,3 +10,4 @@
 - [] Add about us content and layout with top image, mission statement, personal introductions
 - [] Add desktop whitespace on section list (example: lynge__lynge)
 - [] Add real footer content
+- [] Decide on navigation links

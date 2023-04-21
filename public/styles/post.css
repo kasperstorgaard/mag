@@ -27,7 +27,6 @@
 
 .post--content {
   display: grid;
-  place-content: center;
 
   padding: var(--post--block-pad) var(--app-gutter);
 }

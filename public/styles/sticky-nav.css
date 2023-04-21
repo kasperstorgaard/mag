@@ -1,0 +1,26 @@
+/* -------------------------------------------------------------------------------------------------
+ * Sticky nav
+ * -----------------------------------------------------------------------------------------------*/
+ .sticky-nav {
+  display: grid;
+  gap: var(--size-1);
+
+  position: fixed;
+  bottom: var(--size-3);
+  right: 0;
+
+  /* This is to offset the base link padding */
+  padding: var(--size-2) calc(var(--app-gutter) - var(--size-1));
+
+  font-family: var(--font-sans);
+  font-size: var(--font-size-1);
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--surface-1);
+  text-align: end;
+  z-index: 2;
+}
+
+ .sticky-nav a {
+  color: inherit;
+ }

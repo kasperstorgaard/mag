@@ -14,3 +14,14 @@
 
   color: var(--text-1);
 }
+
+ .logo::after {
+  content: "";
+  display: block;
+
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  background: conic-gradient(at 50% 50%,transparent 135deg,green 0,green 225deg, transparent 0);
+ }
