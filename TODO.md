@@ -6,6 +6,7 @@
 - Top page logo (left?)
 - Sticky project name under logo
 - Gallery (kim layout, maybe flexible)
-- Detail page toggle text thingy
+- Detail page toggle text thingy (first paragraph shown)
 - Simple footer
 - Black on white always, no dark theme
+- Add about us content and layout with top image, mission statement, personal introductions
