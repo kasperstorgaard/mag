@@ -1,11 +1,8 @@
 ---
 tags: post
 title: Practice
-img:
-  src: public/images/IMG_5052.mov
-  alt: video of Magnus picking materials
-  lightness: dark
-  caption: Form and Fragment Workshop
+video:
+  src: public/images/Form and Fragment video/IMG_5052.mov
 ---
 # Ordet Bordet Badet
 

@@ -6,7 +6,14 @@
       data-img-lightness={{ post.data.img.lightness or 'dark' }}
     >
       <h2>{{ post.data.title }}</h2>
-      {% image post.data.img.src, post.data.img.alt %}
+
+      {% if post.data.img.src %}
+        {% image post.data.img.src, post.data.img.alt %}
+      {% endif %}
+
+      {% if post.data.video %}
+        <video src="{{ post.data.video.src }}" />
+      {% endif %}
   </a>
   {%- endfor -%}
 </section>
