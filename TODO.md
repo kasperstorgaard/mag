@@ -3,5 +3,9 @@
 - About us structure
 - Who we are structure
 - Sticky navigation (bottom left)
-- Detail page top nav icon (left?)
+- Top page logo (left?)
 - Sticky project name under logo
+- Gallery (kim layout, maybe flexible)
+- Detail page toggle text thingy
+- Simple footer
+- Black on white always, no dark theme
