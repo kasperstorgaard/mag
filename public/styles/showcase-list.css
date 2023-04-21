@@ -46,7 +46,7 @@
   top: var(--showcase-list--top);
   bottom: var(--showcase-list--top);
 
-  font-size: var(--font-size-fluid-2);
+  font-size: var(--font-size-fluid-1);
   color: inherit;
   z-index: 1;
 }

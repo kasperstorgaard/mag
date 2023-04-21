@@ -12,7 +12,7 @@
 
 :root {
   --font-sans: "PlusJakartaSans";
-  --font-serif: "BodoniModa";
+  --font-serif: TimesNewRoman;
   --font-lineheight-1: 1.1;
   --font-lineheight-2: 1.25;
   --font-lineheight-3: 1.375;
@@ -20,15 +20,17 @@
   font-family: var(--font-serif);
   letter-spacing: var(--font-letterspacing-1);
   font-size: 20px;
+  font-weight: 100;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  /* font-family: var(--font-sans);
-  text-transform: uppercase; */
+  font-family: var(--font-sans);
+  text-transform: uppercase;
+  font-weight: 331;
 }
 
 h1 {
-  letter-spacing: var(--font-letterspacing-3);
+  letter-spacing: var(--font-letterspacing-4);
 }
 
 h2 {
