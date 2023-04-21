@@ -2,7 +2,7 @@
  * Showcase list
  * -----------------------------------------------------------------------------------------------*/
  .showcase-list {
-  --showcase-list--top: var(--size-fluid-2);
+  --showcase-list--top: var(--size-fluid-5);
   --showcase-list--side: var(--size-fluid-3);
 
   display: grid;

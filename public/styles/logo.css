@@ -1,0 +1,19 @@
+/* -------------------------------------------------------------------------------------------------
+ * Logo
+ * -----------------------------------------------------------------------------------------------*/
+ .logo {
+  position: fixed;
+  top: var(--size-fluid-2);
+  left: var(--size-fluid-3);
+
+  width: 100%;
+
+  font-size: 32px;
+  font-family:'Times New Roman', Times, serif;
+  letter-spacing: 4px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: var(--font-size-fluid-2);
+
+  color: var(--text-1);
+}
