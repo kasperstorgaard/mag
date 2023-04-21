@@ -49,7 +49,6 @@ const svgIconShortcode = async src => {
   return meta.svg[0].buffer.toString();
 }
 
-
 /**
  * This adds and exports all functions, options etc. to eleventy.
  */

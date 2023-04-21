@@ -2,7 +2,7 @@
 layout: layouts/base.njk
 ---
 <main class="post">
-  <figure class="post--media" data-img-lightness={{ post.data.img.lightness or 'dark' }}>
+  <figure class="post--media" data-img-lightness={{ img.lightness or 'dark' }}>
     {% if img.src %}
       {% image img.src, img.alt %}
     {% endif %}
@@ -14,4 +14,6 @@ layout: layouts/base.njk
   <section class="post--content">
     {{ content | safe }}
   </section>
+  {% include "partials/gallery.njk" %}
+  {% include "partials/footer.njk" %}
 </main>

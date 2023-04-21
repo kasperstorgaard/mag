@@ -3,6 +3,8 @@
  * -----------------------------------------------------------------------------------------------*/
 .post {
   --post--block-pad: var(--size-fluid-3);
+  display: grid;
+  place-items: center;
 }
 
 .post--media {
@@ -27,6 +29,8 @@
 
 .post--content {
   display: grid;
+  max-width: 65ch;
+  max-inline-size: var(--size-content-3);
 
   padding: var(--post--block-pad) var(--app-gutter);
 }
@@ -51,4 +55,8 @@
 .post--content dt,
 .post--content dd {
   border-bottom: 1px solid var(--text-1);
+}
+
+.post .gallery {
+  max-inline-size: var(--size-lg);
 }

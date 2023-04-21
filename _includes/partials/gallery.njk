@@ -1,0 +1,9 @@
+<section class="gallery">
+  {%- for img in gallery -%}
+    <div class="gallery--item"
+      data-gallery-span={{ img.span or '1' }}
+    > 
+      {% image img.src, img.alt %}
+    </div>
+  {% endfor %}
+</section>

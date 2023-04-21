@@ -1,7 +1,7 @@
 <section class="showcase-list">
   {%- for post in collections.post -%}
     <a
-      href="{{ post.url }}"
+      href={{ post.url }}
       class="showcase-list--section"
       data-img-lightness={{ post.data.img.lightness or 'dark' }}
     >
@@ -12,7 +12,7 @@
       {% endif %}
 
       {% if post.data.video %}
-        <video src="{{ post.data.video.src }}" autoplay muted loop />
+        <video src={{ post.data.video.src }} autoplay muted loop />
       {% endif %}
   </a>
   {%- endfor -%}
