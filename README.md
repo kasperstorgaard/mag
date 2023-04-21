@@ -8,7 +8,7 @@ A statically generated website for Mag's architecture firm, built w. Eleventy an
 
 ## How to run
 1. Open a terminal
-2. run `npm start` in 
+2. run `npm start`
 
 ## Recommended tools
 - An editor: [VS Code](https://code.visualstudio.com/)
