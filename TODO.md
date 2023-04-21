@@ -1,8 +1,8 @@
 # TODO
 - [] Font weight zoom on scroll
 - [] Sticky navigation (bottom left)
-- [] Top page logo (left?)
-- [] Sticky project name under logo
+- [x] Top page logo (left?)
+- [x] Sticky project name under logo
 - [] Gallery (kim layout, maybe flexible)
 - [] Detail page toggle text thingy (first paragraph shown)
 - [] Simple footer
