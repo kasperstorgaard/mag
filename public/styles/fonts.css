@@ -10,7 +10,6 @@
   font-style: normal;
 }
 
-
 :root {
   --font-sans: "PlusJakartaSans";
   --font-serif: "BodoniModa";
@@ -24,9 +23,8 @@
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 100;
-  font-family: var(--font-sans);
-  text-transform: uppercase;
+  /* font-family: var(--font-sans);
+  text-transform: uppercase; */
 }
 
 h1 {

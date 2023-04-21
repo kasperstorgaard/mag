@@ -116,11 +116,10 @@
   min-block-size: 100%;
 }
 :where(h1, h2, h3, h4, h5, h6) {
-  font-weight: var(--font-weight-9);
   line-height: var(--font-lineheight-1);
 }
 :where(h1) {
-  font-size: var(--font-size-8);
+  line-height: var(--font-lineheight-00);
   max-inline-size: var(--size-header-1);
 }
 :where(h2) {

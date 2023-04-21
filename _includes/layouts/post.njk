@@ -2,9 +2,9 @@
 layout: layouts/base.njk
 ---
 <main class="post">
-  <figure class="post--media">
+  <figure class="post--media" data-img-lightness={{ post.data.img.lightness or 'dark' }}>
     {% image img.src, img.alt %}
-    <figcaption>{{ img.caption }}</figcaption>
+    <figcaption >{{ img.caption }}</figcaption>
   </figure> 
   <section class="post--content">
     {{ content | safe }}

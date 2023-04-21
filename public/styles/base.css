@@ -8,18 +8,14 @@ dl {
   gap: 0.5em 1px;
 
   max-inline-size: var(--size-content-3);
+  font-size: inherit;
   width: 100%;
 }
 
 dt, dd {
   margin: 0;
 
-  border-bottom: 2px dotted currentColor;
-  background: var(--surface-1);
-
   color: inherit;
-  font-family: var(--font-sans);
-  font-weight: 200;
 }
 
 dt {
