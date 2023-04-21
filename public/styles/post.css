@@ -2,8 +2,7 @@
  * Post
  * -----------------------------------------------------------------------------------------------*/
 .post {
-  --post--gutter: var(--size-fluid-2);
-  --post--top-pad: var(--size-fluid-2);
+  --post--block-pad: var(--size-fluid-3);
 }
 
 .post--media {
@@ -30,7 +29,7 @@
   display: grid;
   place-content: center;
 
-  padding: var(--post--top-pad) var(--post--gutter) var(--size-fluid-3);
+  padding: var(--post--block-pad) var(--app-gutter);
 }
 
 .post--content > *:not(:last-child) {
@@ -41,6 +40,7 @@
   width: 100%;
 
   font-size: var(--font-size-4);
+  line-height: var(--font-lineheight-1);
 }
 
 .post--content dl {
