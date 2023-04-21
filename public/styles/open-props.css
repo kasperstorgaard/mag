@@ -606,12 +606,6 @@
   --radius-conditional-5: clamp(0px, calc(100vw - 100%) * 1e5, var(--radius-5));
   --radius-conditional-6: clamp(0px, calc(100vw - 100%) * 1e5, var(--radius-6));
 }
-@media (prefers-color-scheme: dark) {
-  :where(html) {
-    --shadow-color: 220 40% 2%;
-    --shadow-strength: 25%;
-  }
-}
 @keyframes fade-in {
   to {
     opacity: 1;
