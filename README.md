@@ -12,7 +12,7 @@ A statically generated website for Mag's architecture firm, built w. Eleventy an
 
 ## Recommended tools
 - An editor: [VS Code](https://code.visualstudio.com/)
-- A terminal: [iTerm](https://iterm2.com/) (Mac) or Windows Terminal (Free Microsoft Store)
+- A terminal: [iTerm](https://iterm2.com/) (Mac) or Windows Terminal (Free on Microsoft Store)
 
 ## Built with
 - [Eleventy](https://www.11ty.dev/
