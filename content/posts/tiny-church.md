@@ -2,7 +2,7 @@
 tags: post
 title: Tiny church
 img:
-  src: public/images/tiny 7.jpg
+  src: public/images/tiny 1.jpg
   alt: model render of a tiny church on a pidestal
   lightness: light
   caption: Tiny church
