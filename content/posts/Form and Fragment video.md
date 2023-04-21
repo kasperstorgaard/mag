@@ -2,7 +2,7 @@
 tags: post
 title: Practice
 video:
-  src: public/images/Form and Fragment video/IMG_5052.mov
+  src: videos/IMG_5052.mov
 ---
 # Ordet Bordet Badet
 

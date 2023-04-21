@@ -12,7 +12,7 @@
       {% endif %}
 
       {% if post.data.video %}
-        <video src="{{ post.data.video.src }}" />
+        <video src="{{ post.data.video.src }}" autoplay muted loop />
       {% endif %}
   </a>
   {%- endfor -%}

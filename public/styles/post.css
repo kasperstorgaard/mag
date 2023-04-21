@@ -19,7 +19,7 @@
     ".    .    .";
   place-items: start;
 
-  max-height: 500px;
+  max-height: 600px;
   font-size: var(--font-size-2);
 
   overflow: hidden;
@@ -27,6 +27,11 @@
 
 .post--media picture {
   max-height: 500;
+  grid-row: 1/-1;
+  grid-column: 1/-1;
+}
+
+.post--media video {
   grid-row: 1/-1;
   grid-column: 1/-1;
 }

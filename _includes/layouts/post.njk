@@ -7,6 +7,10 @@ layout: layouts/base.njk
       {% image img.src, img.alt %}
       <figcaption >{{ img.caption }}</figcaption>
     {% endif %}
+
+    {% if video.src %}
+      <video src="/{{ video.src }}" controls />
+    {% endif %}
   </figure> 
   <section class="post--content">
     {{ content | safe }}
