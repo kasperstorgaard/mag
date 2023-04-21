@@ -3,10 +3,7 @@
  * -----------------------------------------------------------------------------------------------*/
  .logo {
   position: fixed;
-  top: var(--size-fluid-2);
-  left: var(--size-fluid-3);
-
-  width: 100%;
+  padding: var(--size-fluid-2) var(--size-fluid-3);
 
   font-size: 32px;
   font-family:'Times New Roman', Times, serif;

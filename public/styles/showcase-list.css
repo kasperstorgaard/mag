@@ -2,7 +2,7 @@
  * Showcase list
  * -----------------------------------------------------------------------------------------------*/
  .showcase-list {
-  --showcase-list--top: var(--size-fluid-5);
+  --showcase-list--top: calc(var(--size-fluid-5) - 1em);
   --showcase-list--side: var(--size-fluid-3);
 
   display: grid;
@@ -19,6 +19,7 @@
     ".    .    .";
 
   place-items: start;
+  padding: 0;
 
   color: var(--text-1);
 }
@@ -52,7 +53,7 @@
 }
 
 .showcase-list--section[data-img-lightness="light"] {
-  color: var(--surface-1);
+  color: var(--text-1);
 }
 
 .showcase-list--setion-link {
