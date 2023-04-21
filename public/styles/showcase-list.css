@@ -3,14 +3,13 @@
  * -----------------------------------------------------------------------------------------------*/
  .showcase-list {
   --showcase-list--top: calc(var(--size-fluid-5) - 1em);
-  --showcase-list--side: var(--size-fluid-3);
 
   display: grid;
 }
 
 .showcase-list--section {
   display: grid;
-  grid-template-columns: var(--showcase-list--side) 1fr var(--showcase-list--side);
+  grid-template-columns: var(--app-gutter) 1fr var(--app-gutter);
   grid-template-rows: var(--showcase-list--top) 1fr min-content var(--showcase-list--top);
   grid-template-areas:
     ".    .    ."

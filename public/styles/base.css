@@ -1,3 +1,12 @@
+:root {
+  --app-gutter: var(--size-fluid-3);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
 a {
   text-decoration-color: currentColor;
 }
