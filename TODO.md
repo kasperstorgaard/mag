@@ -1,5 +1,4 @@
 # TODO
-- [] Font weight zoom on scroll
 - [x] Sticky navigation (bottom left)
 - [x] Top page logo (left?)
 - [x] Sticky project name under logo
@@ -12,4 +11,4 @@
 - [] Add real footer content
 - [] Decide on navigation links
 - [] Adjust gallery
-- [] Add desktop post styles
+- [] Add current active showcase js effect w. extra text on image, swipe right to open, zoom?
