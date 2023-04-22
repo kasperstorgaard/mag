@@ -33,6 +33,7 @@
   max-inline-size: var(--size-content-3);
 
   padding: var(--post--block-pad) var(--app-gutter);
+  border-top: 1px solid currentColor;
 }
 
 .post--content > *:not(:last-child) {
