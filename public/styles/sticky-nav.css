@@ -3,6 +3,7 @@
  * -----------------------------------------------------------------------------------------------*/
  .sticky-nav {
   display: grid;
+  place-items: flex-end;
   gap: var(--size-1);
 
   position: fixed;
@@ -21,6 +22,7 @@
   z-index: 2;
 }
 
- .sticky-nav a {
+.sticky-nav a {
   color: inherit;
- }
+  background: var(--text-2);
+}
