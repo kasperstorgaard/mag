@@ -1,5 +1,5 @@
 ---
-tags: post
+tags: project
 title: Practice
 video:
   src: videos/IMG_5052.mov

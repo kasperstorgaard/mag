@@ -1,5 +1,5 @@
 ---
-tags: post
+tags: project
 title: about
 img:
   src: public/images/tiny 7.jpg

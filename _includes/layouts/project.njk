@@ -1,8 +1,8 @@
 ---
 layout: layouts/base.njk
 ---
-<main class="post">
-  <figure class="post--media" data-img-lightness={{ img.lightness or 'dark' }}>
+<main class="project">
+  <figure class="project--media" data-img-lightness={{ img.lightness or 'dark' }}>
     {% if img.src %}
       {% image img.src, img.alt %}
     {% endif %}
@@ -11,7 +11,7 @@ layout: layouts/base.njk
       <video src="/{{ video.src }}" controls />
     {% endif %}
   </figure> 
-  <section class="post--content">
+  <section class="project--content">
     {{ content | safe }}
   </section>
   {% include "partials/gallery.njk" %}

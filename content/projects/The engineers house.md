@@ -1,5 +1,5 @@
 ---
-tags: post
+tags: project
 title: The engineers house
 img:
   src: public/images/The-engineers-house-01.jpg

@@ -1,0 +1,19 @@
+<section class="project-list">
+  {%- for project in collections.project -%}
+    <a
+      href="{{ project.url }}"
+      class="project-list--section"
+      data-img-lightness="{{ project.data.img.lightness or 'dark' }}"
+    >
+      <h2>{{ project.data.title }}</h2>
+
+      {% if project.data.img.src %}
+        {% image project.data.img.src, project.data.img.alt %}
+      {% endif %}
+
+      {% if project.data.video %}
+        <video src="{{ project.data.video.src }}" autoplay muted loop />
+      {% endif %}
+  </a>
+  {%- endfor -%}
+</section>

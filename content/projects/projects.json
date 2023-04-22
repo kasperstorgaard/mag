@@ -1,4 +1,4 @@
 {
   "//": "This is a metadata file that applies to the entire folder",
-  "layout": "layouts/post.njk"
+  "layout": "layouts/project.njk"
 }

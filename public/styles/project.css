@@ -1,13 +1,13 @@
 /* -------------------------------------------------------------------------------------------------
- * Post
+ * Project
  * -----------------------------------------------------------------------------------------------*/
-.post {
-  --post--block-pad: var(--size-fluid-3);
+.project {
+  --project--block-pad: var(--size-fluid-3);
   display: grid;
   place-items: center;
 }
 
-.post--media {
+.project--media {
   display: grid;
 
   max-height: 600px;
@@ -16,48 +16,48 @@
   overflow: hidden;
 }
 
-.post--media picture {
+.project--media picture {
   max-height: 500;
   grid-row: 1/-1;
   grid-column: 1/-1;
 }
 
-.post--media video {
+.project--media video {
   grid-row: 1/-1;
   grid-column: 1/-1;
 }
 
-.post--content {
+.project--content {
   display: grid;
   max-width: 65ch;
   max-inline-size: var(--size-content-3);
 
-  padding: var(--post--block-pad) var(--app-gutter);
+  padding: var(--project--block-pad) var(--app-gutter);
   border-top: 1px solid currentColor;
 }
 
-.post--content > *:not(:last-child) {
+.project--content > *:not(:last-child) {
   margin-bottom: 1em;
 }
 
-.post--content h1 {
+.project--content h1 {
   width: 100%;
 
   font-size: var(--font-size-4);
   line-height: var(--font-lineheight-1);
 }
 
-.post--content dl {
+.project--content dl {
   padding-top: 1em;
 
   border-top: 3px double var(--text-1);
 }
 
-.post--content dt,
-.post--content dd {
+.project--content dt,
+.project--content dd {
   border-bottom: 1px solid var(--text-1);
 }
 
-.post .gallery {
+.project .gallery {
   max-inline-size: var(--size-lg);
 }

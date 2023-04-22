@@ -1,5 +1,5 @@
 ---
-tags: post
+tags: project
 title: Workshop 02
 img:
   src: public/images/workshop-02.1.jpg

@@ -1,5 +1,5 @@
 ---
-tags: post
+tags: project
 title: Tiny church
 img:
   src: public/images/tiny 1.jpg
