@@ -3,6 +3,9 @@
  * -----------------------------------------------------------------------------------------------*/
  .logo {
   position: fixed;
+  left: 0;
+  right: 0;
+
   padding: var(--size-fluid-2) var(--size-fluid-3) var(--size-fluid-4);
   margin-inline: 0;
 

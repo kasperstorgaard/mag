@@ -8,7 +8,6 @@
   padding: var(--app-gutter);
 
   border-top: 5px double var(--text-1);
-  z-index: 3;
 }
 
 .footer a {
