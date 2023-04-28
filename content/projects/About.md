@@ -5,6 +5,11 @@ img:
   src: public/images/tiny 7.jpg
   alt: model render of a tiny church on a pidestal
   lightness: light
+gallery:
+- src: public/images/Alvar pic.jpg
+  alt: model render of a tiny church on a pidestal
+  lightness: light
+  caption: Tiny church
 ---
 # about
 
