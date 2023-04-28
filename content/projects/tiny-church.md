@@ -20,6 +20,26 @@ gallery:
   alt: model render of a tiny church on a pidestal
   lightness: light
   caption: Tiny church
+- src: public/images/tiny 10.jpg
+  alt: model render of a tiny church on a pidestal
+  lightness: light
+  caption: Tiny church
+- src: public/images/tiny 12.jpg
+  alt: model render of a tiny church on a pidestal
+  lightness: light
+  caption: Tiny church
+- src: public/images/tiny 13.jpg
+  alt: model render of a tiny church on a pidestal
+  lightness: light
+  caption: Tiny church
+- src: public/images/tiny 15.jpg
+  alt: model render of a tiny church on a pidestal
+  lightness: light
+  caption: Tiny church
+- src: public/images/tiny 17.jpg
+  alt: model render of a tiny church on a pidestal
+  lightness: light
+  caption: Tiny church
 ---
 # Ordet Bordet Badet
 
