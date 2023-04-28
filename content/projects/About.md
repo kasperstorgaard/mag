@@ -10,6 +10,10 @@ gallery:
   alt: model render of a tiny church on a pidestal
   lightness: light
   caption: Tiny church
+- src: public/images/Magnus pic.jpg
+  alt: model render of a tiny church on a pidestal
+  lightness: light
+  caption: Tiny church
 ---
 # about
 
