@@ -8,4 +8,8 @@ img:
 ---
 # about
 
- Our creative processes of small-scale architecture and design by Alvar Silvennoinen and Magnus Storgaard. We're not striving for perfection, but to share the things we find fun and intriguing. Follow our journey as we showcase our work, and feel free to share your thoughts and insights with us.
+ At From & Fragment our team is passionate about pushing the boundaries of traditional design practices and exploring new ways of creating architecture. We believe that innovation and creativity can be found in unexpected places.
+
+ Our approach is collaborative, and we work closely with our clients to ensure that their needs and vision are incorporated into our work. We are committed to producing designs that are not only functional but also beautiful, sustainable, and innovative.
+
+ We are excited to share our ideas and skill with you and to collaborate with you on your next project. Contact us to learn more about how we can help you bring your vision to life.
