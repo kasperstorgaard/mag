@@ -24,7 +24,7 @@
   place-items: start;
   padding: 0;
   margin: 0;
-  overflow-x: scroll;
+  overflow: hidden;
 
   color: var(--text-1);
   background: var(--text-2);
@@ -42,13 +42,19 @@
   grid-row: -1/1;
   width: 100%;
 
-  transition: opacity 1s ease-out;
+  transition: opacity 1s ease-out, transform 1s ease-out
 }
 
 .project-list--section:not([data-active]) > img,
 .project-list--section:not([data-active]) > video,
 .project-list--section:not([data-active]) > picture {
   opacity: 0.14;
+}
+
+.project-list--section[data-active] > img,
+.project-list--section[data-active] > video,
+.project-list--section[data-active] > picture {
+  transform: scale(1.02);
 }
 
 .project-list--section > div {

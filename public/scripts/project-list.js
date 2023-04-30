@@ -27,7 +27,7 @@ function setupActiveDetection() {
     activeEntry = match;
     activeEntry.target.setAttribute("data-active", "data-active");
   }, {
-    rootMargin: `${header.getBoundingClientRect().height}px 0px 0px 0px`,
+    rootMargin: `10% 0px 0px 0px`,
     threshold: new Array(101).fill(0).map((_, idx) => idx / 100),
   });
 
