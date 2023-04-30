@@ -1,5 +1,8 @@
 ---
-tags: project
+tags:
+- project
+- tiny living
+- competition
 title: Tiny church
 img:
   src: public/images/tiny 1.jpg
@@ -9,13 +12,9 @@ img:
 gallery:
 - src: public/images/tiny 4.jpg
   alt: model render of a tiny church on a pidestal
-  lightness: light
-  caption: Tiny church
   span: 2
 - src: public/images/tiny 5.jpg
   alt: model render of a tiny church on a pidestal
-  lightness: light
-  caption: Tiny church
 - src: public/images/tiny 6.jpg
   alt: model render of a tiny church on a pidestal
   lightness: light

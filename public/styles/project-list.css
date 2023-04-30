@@ -3,7 +3,11 @@
  * -----------------------------------------------------------------------------------------------*/
  .project-list {
   --project-list--top: calc(var(--font-size-fluid-2) + (var(--size-fluid-2) * 1.25));
-
+  --project-list--active-transition-duration: 1s;
+  z-index: 0;
+ }
+ 
+ .project-list--projects {
   display: grid;
 }
 
@@ -14,15 +18,34 @@
   grid-template-areas:
     ".    .    ."
     ". content ."
-    ".  link   ."
     ".    .    .";
 
   place-items: start;
   padding: 0;
   margin: 0;
+  overflow-x: scroll;
 
   color: var(--text-1);
 }
+
+/* .project-list--section::after {
+  content: "";
+
+  grid-column: -1/1;
+  grid-row: -1/1;
+
+  display: block;
+
+  width: 100%;
+  height: 100%;
+
+  background: rgba(255, 255, 255, 1);
+  opacity: 0.8;
+}
+
+.project-list--section[data-active]::after {
+  animation: var(--animation-fade-out);
+} */
 
 .project-list--section:hover {
   text-decoration: none;
@@ -34,35 +57,19 @@
 .project-list--section > picture {
   grid-column: -1/1;
   grid-row: -1/1;
+  width: 100%;
 }
 
-/*
- * Sticky Headline
- * (could be changed to more text in a container)
- */
-.project-list--section h2 {
+.project-list--section > div {
   grid-area: content;
+  display: grid;
+}
 
-  position: sticky;
-  top: var(--project-list--top);
-  bottom: var(--project-list--top);
-
+.project-list--section h2 {
   font-size: var(--font-size-fluid-1);
-  color: inherit;
-  z-index: 1;
+  color: var(--text-1);
 }
 
 .project-list--section[data-img-lightness="light"] {
   color: var(--text-1);
-}
-
-.project-list--setion-link {
-  grid-area: link;
-  justify-self: end;
-
-  z-index: 0;
-
-  text-decoration: underline;
-  font-family: var(--font-sans);
-  font-size: var(--font-size-fluid-1);
 }

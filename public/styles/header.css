@@ -1,12 +1,12 @@
 /* -------------------------------------------------------------------------------------------------
- * Logo
+ * Header
  * -----------------------------------------------------------------------------------------------*/
- .logo {
+ .header {
   position: fixed;
   left: 0;
   right: 0;
 
-  padding: var(--size-fluid-2) var(--size-fluid-3) var(--size-fluid-4);
+  padding: var(--size-fluid-2) var(--size-fluid-3);
   margin-inline: 0;
 
   font-size: 32px;
@@ -16,6 +16,11 @@
   text-transform: uppercase;
   font-size: var(--font-size-fluid-2);
   color: var(--text-1);
-  background: var(--surface-1);
-  border-bottom: 1px solid currentColor;
+  /* background: var(--surface-1); */
+
+  z-index: 1;
+}
+
+.header--logo {
+  color: inherit;
 }

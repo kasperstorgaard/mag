@@ -81,11 +81,6 @@
   border-width: 0;
 }
 @media (prefers-reduced-motion: no-preference) {
-  :where(html) {
-    scroll-behavior: smooth;
-  }
-}
-@media (prefers-reduced-motion: no-preference) {
   :where(:focus-visible) {
     transition: outline-offset 145ms var(--ease-2);
   }

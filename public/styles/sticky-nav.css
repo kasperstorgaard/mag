@@ -17,8 +17,10 @@
   font-size: var(--font-size-1);
   font-weight: 400;
   text-transform: uppercase;
-  color: var(--surface-1);
   text-align: end;
+
+  color: var(--surface-1);
+  z-index: 1;
 }
 
 .sticky-nav a {

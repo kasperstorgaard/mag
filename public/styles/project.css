@@ -33,7 +33,6 @@
   max-inline-size: var(--size-content-3);
 
   padding: var(--project--block-pad) var(--app-gutter);
-  border-top: 1px solid currentColor;
 }
 
 .project--content > *:not(:last-child) {
