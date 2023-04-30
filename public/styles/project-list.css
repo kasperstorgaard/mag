@@ -4,6 +4,7 @@
  .project-list {
   --project-list--top: calc(var(--font-size-fluid-2) + (var(--size-fluid-2) * 1.25));
   --project-list--active-transition-duration: 1s;
+
   z-index: 0;
  }
  
@@ -68,6 +69,10 @@
 .project-list--section h2 {
   font-size: var(--font-size-fluid-1);
   color: var(--text-1);
+
+  margin-left: calc(-1 * var(--app-gutter));
+  padding: var(--size-1) var(--size-2) var(--size-1) var(--app-gutter);
+  background: var(--surface-1);
 }
 
 .project-list--section[data-img-lightness="light"] {

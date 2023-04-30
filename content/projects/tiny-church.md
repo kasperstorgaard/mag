@@ -39,6 +39,7 @@ gallery:
   alt: model render of a tiny church on a pidestal
   lightness: light
   caption: Tiny church
+  span: 2
 ---
 # Ordet Bordet Badet
 

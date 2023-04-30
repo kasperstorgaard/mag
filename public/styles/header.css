@@ -1,12 +1,7 @@
 /* -------------------------------------------------------------------------------------------------
  * Header
  * -----------------------------------------------------------------------------------------------*/
- .header {
-  position: fixed;
-  left: 0;
-  right: 0;
-
-  padding: var(--size-fluid-2) var(--size-fluid-3);
+.header {
   margin-inline: 0;
 
   font-size: 32px;
@@ -16,11 +11,27 @@
   text-transform: uppercase;
   font-size: var(--font-size-fluid-2);
   color: var(--text-1);
-  /* background: var(--surface-1); */
 
   z-index: 1;
 }
 
 .header--logo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  margin: 0;
+
+  background: var(--surface-1);
   color: inherit;
+}
+
+.header--logo,
+.header [aria-hidden] {
+  padding: var(--size-fluid-2) var(--size-fluid-3);
+}
+
+.header [aria-hidden] {
+  visibility: hidden;
 }
